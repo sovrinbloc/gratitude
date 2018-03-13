@@ -1,0 +1,22 @@
+GratitudeBundle\Entity\GratitudeList:
+    type: entity
+    table: null
+    repositoryClass: GratitudeBundle\Repository\GratitudeListRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        userId:
+            type: integer
+            column: user_id
+        item:
+            type: string
+            length: '6000'
+        created:
+            type: datetime
+        shareable:
+            type: integer
+    lifecycleCallbacks: {  }

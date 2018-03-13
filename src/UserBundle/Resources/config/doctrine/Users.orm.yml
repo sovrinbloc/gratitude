@@ -1,0 +1,70 @@
+UserBundle\Entity\Users:
+    type: entity
+    table: null
+    repositoryClass: UserBundle\Repository\UsersRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+            unique: true
+        password:
+            type: string
+            length: 255
+        lastName:
+            type: string
+            length: 255
+            column: last_name
+        sobrietyDay:
+            type: integer
+            column: sobriety_day
+        sobrietyMonth:
+            type: integer
+            column: sobriety_month
+        sobrietyYear:
+            type: integer
+            column: sobriety_year
+        fellowship:
+            type: string
+            length: 255
+        substanceOfChoice:
+            type: string
+            length: 255
+            column: substance_of_choice
+        created:
+            type: datetime
+        phoneNumber:
+            type: string
+            length: 255
+            unique: true
+            column: phone_number
+        city:
+            type: string
+            length: 255
+        state:
+            type: string
+            length: 255
+        zipCode:
+            type: string
+            length: '12'
+            column: zip_code
+        sponsor:
+            type: string
+            length: 255
+        sponsorPhoneNumber:
+            type: string
+            length: '20'
+            column: sponsor_phone_number
+        step:
+            type: integer
+        bio:
+            type: text
+    lifecycleCallbacks: {  }

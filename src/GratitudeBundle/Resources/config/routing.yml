@@ -1,0 +1,35 @@
+gratitude_homepage:
+    path:     /
+    defaults: { _controller: GratitudeBundle:Default:index }
+
+post:
+    path:     /post
+    defaults: { _controller: GratitudeBundle:GratitudeList:post }
+
+validate:
+    path:     /validate
+    defaults: { _controller: GratitudeBundle:GratitudeList:validate }
+
+view:
+    path:     /view
+    defaults: { _controller: GratitudeBundle:GratitudeList:view }
+
+remove:
+    path:     /remove
+    defaults: { _controller: GratitudeBundle:GratitudeList:remove }
+
+share:
+    path:     /share
+    defaults: { _controller: GratitudeBundle:GratitudeList:share }
+
+list:
+    path:     /list
+    defaults: { _controller: GratitudeBundle:GratitudeList:list }
+
+random:
+    path:     /random
+    defaults: { _controller: GratitudeBundle:GratitudeList:random }
+
+hint:
+    path:     /hint
+    defaults: { _controller: GratitudeBundle:GratitudeList:hint }
