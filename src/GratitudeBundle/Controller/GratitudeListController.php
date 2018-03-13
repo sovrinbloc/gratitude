@@ -4,7 +4,7 @@ namespace GratitudeBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class ListController extends Controller
+class GratitudeListController extends Controller
 {
     public function postAction()
     {
@@ -43,7 +43,8 @@ class ListController extends Controller
 
     public function listAction()
     {
-        return $this->render('GratitudeBundle:GratitudeList:list.html.twig', array(
+        return $this->render(
+            'gratitudelist.html.twig', array(
             // ...
         ));
     }
