@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="904258b4-9c9f-4f02-8400-ea1ff994cf62" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Controller/ListController.php" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Controller/GratitudeListController.php" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Repository/ListRepository.php" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Repository/GratitudeListRepository.php" />
+      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Entity/GratitudeList.php" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Entity/GratitudeList.php" />
+      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml" />
       <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/hint.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/hint.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/list.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/gratitudelist.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/post.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/post.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/random.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/random.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/remove.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/remove.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/share.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/share.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/validate.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/validate.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/List/view.html.twig" afterPath="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/view.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,14 +22,14 @@
       <file leaf-file-name="GratitudeList.orm.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+            <state relative-caret-position="330">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -50,8 +42,8 @@
       <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="375">
+              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -67,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GratitudeListController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GratitudeListController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Controller/GratitudeListController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
+            <state relative-caret-position="900">
               <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
               <folding>
                 <element signature="e#224#270#0#PHP" expanded="true" />
@@ -88,57 +80,9 @@
       <file leaf-file-name="GratitudeList.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Entity/GratitudeList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="587">
+              <caret line="158" column="7" lean-forward="true" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gratitudelist.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/gratitudelist.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hint.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/hint.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/post.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/random.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -170,11 +114,12 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/GratitudeBundle/Entity/List.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Entity/Users.php" />
-        <option value="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml" />
         <option value="$PROJECT_DIR$/src/GratitudeBundle/Repository/GratitudeListRepository.php" />
         <option value="$PROJECT_DIR$/src/GratitudeBundle/Controller/GratitudeListController.php" />
         <option value="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/gratitudelist.html.twig" />
         <option value="$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/hint.html.twig" />
+        <option value="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml" />
+        <option value="$PROJECT_DIR$/src/GratitudeBundle/Entity/GratitudeList.php" />
         <option value="$PROJECT_DIR$/src/GratitudeBundle/Resources/config/routing.yml" />
       </list>
     </option>
@@ -428,12 +373,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520919245303</updated>
-      <workItem from="1520919246370" duration="3044000" />
+      <workItem from="1520919246370" duration="3623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3044000" />
+    <option name="totallyTimeSpent" value="3623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="946" extended-state="6" />
@@ -542,16 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/post.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/random.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -572,24 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/hint.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Entity/GratitudeList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Repository/GratitudeListRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -598,33 +515,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Controller/GratitudeListController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
+        <state relative-caret-position="900">
           <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#224#270#0#PHP" expanded="true" />
@@ -635,6 +528,58 @@
             <element signature="e#1198#1246#0#PHP" expanded="true" />
             <element signature="e#1361#1407#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/post.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#28#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/views/GratitudeList/hint.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#28#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/doctrine/GratitudeList.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Entity/GratitudeList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="158" column="7" lean-forward="true" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GratitudeBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

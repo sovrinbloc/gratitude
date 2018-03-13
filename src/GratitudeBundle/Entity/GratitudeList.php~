@@ -34,9 +34,6 @@ class GratitudeList
      */
     private $shareable;
 
-    /**
-     * @var int
-     */
     private $anonymous;
 
 
@@ -141,28 +138,5 @@ class GratitudeList
     public function getShareable()
     {
         return $this->shareable;
-    }
-
-    /**
-     * Set anonymous
-     *
-     * @param integer $anonymous
-     * @return GratitudeList
-     */
-    public function setAnonymous($anonymous)
-    {
-        $this->anonymous = $anonymous;
-
-        return $this;
-    }
-
-    /**
-     * Get anonymous
-     *
-     * @return integer
-     */
-    public function getAnonymous()
-    {
-        return $this->anonymous;
     }
 }

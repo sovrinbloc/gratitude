@@ -19,4 +19,6 @@ GratitudeBundle\Entity\GratitudeList:
             type: datetime
         shareable:
             type: integer
+        anonymous:
+            type: integer
     lifecycleCallbacks: {  }

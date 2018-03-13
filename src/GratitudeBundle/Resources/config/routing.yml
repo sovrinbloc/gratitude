@@ -22,8 +22,8 @@ share:
     path:     /share
     defaults: { _controller: GratitudeBundle:GratitudeList:share }
 
-list:
-    path:     /list
+gratitudelist:
+    path:     /gratitudelist
     defaults: { _controller: GratitudeBundle:GratitudeList:gratitudelist }
 
 random:
